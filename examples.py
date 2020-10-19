@@ -1,8 +1,6 @@
 
-import random
 import endecrypt
 from endecrypt import cipher
-
 
 print("\n")
 print("1.) binary")
