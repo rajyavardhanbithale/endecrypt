@@ -1,5 +1,5 @@
 # Endecrypt
-A simple python library for encryption and decryption . Library contain more than 12 (version 1.0) including ciphers and various other cryptography 
+A simple python library for encryption and decryption . Library contain 10 (version 1.0) including ciphers and various other cryptography 
 
 ### Feature
 - Easy to use
@@ -21,17 +21,45 @@ For **Windows**  and **MAC** User
 For **Linux** User
 `pip3 install endecrypt`
 
-###Ussage
+## Usage
+#### Simple Encryption
 ```python
 import endecrypt
 
-text = "Hello World 123"
-convert_to =  'binary'
+#Encryption
+message_1 = "hello world"         #Use Small Word
+encryption = 'morse'
 
-endecrypt.encode(text , convert_to)     #User Binary Encryption
-output - "1001000 1100101 1101100 1101100 1101111 100000 1010111 1101111 1110010 1101100 1100100"
+endecrypt.encode(message_1 ,encryption)
+# >> .... . .-.. .-.. ---  .-- --- .-. .-.. -..
 
-converted_text = "1001000 1100101 1101100 1101100 1101111 100000 1010111 1101111 1110010 1101100 1100100"
-endecrypt.decode(converted_text , convert_to )   #Decrypting Binary
- 
+#Decryption
+message_2 = ".... . .-.. .-.. ---  .-- --- .-. .-.. -.."     # Don't leave space  
+decryption = 'morse'
+
+endecrypt.decode(message_2 , decryption)
+# >> hello world
+```
+## Advance Encryption
+In Advance Encryption we can use cipher text this library contain 5 ciphers more added later
+```python
+from endecrypt import cipher
+
+# Encryption
+message_1 = "Hello World"
+encryption = 'affine'        #We Can Use Anything As Variable ex - y = 'affine' 
+slop_1 =7
+slop_2 = 25
+
+cipher.encode(message_1, encryption , slop_1 , slop_2)
+# >> WBYYTXTOYU
+
+#Decryption
+message_2 = "WBYYTXTOYU"
+decryption = 'affine'          #We Can Use Anything As Variable ex - y = 'affine' 
+slop_1 =7
+slop_2 = 25
+
+cipher.decode(message_2 , decryption , slop_1 , slop_2)
+# >> Hello World
 ```
