@@ -1,6 +1,12 @@
 # Endecrypt
 A simple python library for encryption and decryption . Library contain 10 (version 1.0) including ciphers and various other cryptography 
 
+###### Donate To Programmer [Donate] - 
+bc1q9xu6n7cks0gddgqhdp4nqf7je2jetge0ys9sx7knf5653ukpkgmsptykwy
+
+OR -
+[![Donate To Programmer](https://i.imgur.com/F23EQ9v.png "Donate To Programmer")](https://i.imgur.com/F23EQ9v.png "Donate To Programmer")
+
 ### Feature
 - Easy to use
 - Simple 3 - 4 line code required to convert text to encryption
@@ -63,3 +69,12 @@ slop_2 = 25
 cipher.decode(message_2 , decryption , slop_1 , slop_2)
 # >> Hello World
 ```
+
+###### For More Sample Run examples.py
+
+#### Like my work -
+###### Donate To Programmer [Donate] - 
+bc1q9xu6n7cks0gddgqhdp4nqf7je2jetge0ys9sx7knf5653ukpkgmsptykwy
+
+OR 
+[![Donate To Programmer](https://i.imgur.com/F23EQ9v.png "Donate To Programmer")](https://i.imgur.com/F23EQ9v.png "Donate To Programmer")
