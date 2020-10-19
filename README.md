@@ -4,7 +4,7 @@ A simple python library for encryption and decryption . Library contain 10 (vers
 ###### Donate To Programmer [Donate] - 
 bc1q9xu6n7cks0gddgqhdp4nqf7je2jetge0ys9sx7knf5653ukpkgmsptykwy
 
-OR -
+Bitcoin
 [![Donate To Programmer](https://i.imgur.com/F23EQ9v.png "Donate To Programmer")](https://i.imgur.com/F23EQ9v.png "Donate To Programmer")
 
 ### Feature
@@ -76,5 +76,5 @@ cipher.decode(message_2 , decryption , slop_1 , slop_2)
 ###### Donate To Programmer [Donate] - 
 bc1q9xu6n7cks0gddgqhdp4nqf7je2jetge0ys9sx7knf5653ukpkgmsptykwy
 
-OR 
+Bitcoin 
 [![Donate To Programmer](https://i.imgur.com/F23EQ9v.png "Donate To Programmer")](https://i.imgur.com/F23EQ9v.png "Donate To Programmer")
