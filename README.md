@@ -67,10 +67,5 @@ cipher.decode(message_2 , decryption , slop_1 , slop_2)
 
 ###### For More Sample Run examples.py
 
-#### Like my work -
-###### Donate To Programmer [Donate] - 
-bc1qpw05r86cv5re458gtd9nc47wyt99evyun7k7wv
-<br>
-bitcoin:bc1qpw05r86cv5re458gtd9nc47wyt99evyun7k7wv?message=donation%20for%20my%20work%20&time=1649433159
 
 
