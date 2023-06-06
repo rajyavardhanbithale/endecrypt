@@ -1,6 +1,7 @@
 # Endecrypt
-A simple Python library for encryption and decryption, the library contains 10 cyphers and various other cryptography.
+A simple Python library for encryption and decryption, the library contains 10 ciphers and various other cryptography.
 
+*Under Development - Bugs*
 
 ### Feature
 - Easy to use
