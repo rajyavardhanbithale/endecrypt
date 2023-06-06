@@ -43,7 +43,7 @@ endecrypt.decode(message_2 , decryption)
 # >> hello world
 ```
 ## Advance Encryption
-In Advance Encryption we can use cipher text this library contain 5 ciphers more added later
+Advance Encryption, You can use a cipher library that contains five ciphers.
 ```python
 from endecrypt import cipher
 
